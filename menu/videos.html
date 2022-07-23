@@ -6,14 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=ç, initial-scale=1.0">
     <title>Videos</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+
+    <!-- BOOTSTRAP -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 
-<body class="contenedorVideos">
+<body>
 
-    <nav>
-        <!-- <div class="padreMenuFlex"> -->
+    <!-- <nav>
     <img src="../img/logoNav.png" alt="logo">
         <ul>
             <li><a href="../index.html">Inicio</a></li>
@@ -24,52 +31,81 @@
             <li><a href="../menu/contactos.html">Contacto</a></li>
         </ul>
         </div>
-    </nav>
-
-    <!-- <nav>
-        <div class="padreMenuFlex">
-
-            <div class="hijoMenuFlex index">
-                <a href="../index.html">Inicio</a>
-            </div>
-
-            <div class="hijoMenuFlex team">
-                <a href="../menu/team.html">Team</a>
-            </div>
-
-            <div class="hijoMenuFlex eventos">
-                <a href="../menu/eventos.html">Eventos</a>
-            </div>
-
-            <div class="hijoMenuFlex videos">
-                <a href="../menu/videos.html">Videos</a>
-            </div>
-
-            <div class="hijoMenuFlex shop">
-                <a href="../menu/shop.html">Shop</a>
-            </div>
-
-            <div class="hijoMenuFlex contactos">
-                <a href="../menu/contactos.html">Contacto</a>
-            </div>
-
-        </div>
     </nav> -->
 
+    <!-- NAVBAR BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/contactos.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <header>
-        <h1>VIDEOS</h1>
+        <h1 class="mt-3">VIDEOS</h1>
     </header>
     <h2>Ingresa a nuestro canal de YOUTUBE</h2>
     <section class="link">
-    <p align="center"><a href="https://www.youtube.com/user/ATLPinamar" target="_blank">CLICK AQUÍ</a></p>
+        <p align="center"><a href="https://www.youtube.com/user/ATLPinamar" target="_blank">CLICK AQUÍ</a></p>
     </section>
 
-    <section class="video">
+    <!-- <section class="video">
     <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/OX4bVL5G5i4"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe></p>
-    </section>
+    </section> -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <p align="center"><iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/OX4bVL5G5i4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></p>
+            </div>
+            <div class="carousel-item">
+                <p align="center"><iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/yYzQIB_8RTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+            <div class="carousel-item">
+                <p align="center"><iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/rnTg8Ju-AlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
 
     <div class="botonWhatsapp">
         <a href=""><img src="../img/wa.png" alt></a>
@@ -86,7 +122,10 @@
 
     </footer>
 
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

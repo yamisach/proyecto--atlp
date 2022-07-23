@@ -6,14 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+
+    <!-- BOOTSTRAP -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 
-<body class="contenedorShop">
+<body>
 
-    <nav>
-        <!-- <div class="padreMenuFlex"> -->
+    <!-- <nav>
     <img src="../img/logoNav.png" alt="logo">
         <ul>
             <li><a href="../index.html">Inicio</a></li>
@@ -24,80 +31,130 @@
             <li><a href="../menu/contactos.html">Contacto</a></li>
         </ul>
         </div>
+    </nav> -->
+
+    <!-- NAVBAR BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/contactos.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    
-    <!-- <nav>
-        <div class="padreMenuFlex">
-
-            <div class="hijoMenuFlex index">
-                <a href="../index.html">Inicio</a>
-            </div>
-
-            <div class="hijoMenuFlex team">
-                <a href="../menu/team.html">Team</a>
-            </div>
-
-            <div class="hijoMenuFlex eventos">
-                <a href="../menu/eventos.html">Eventos</a>
-            </div>
-
-            <div class="hijoMenuFlex videos">
-                <a href="../menu/videos.html">Videos</a>
-            </div>
-
-            <div class="hijoMenuFlex shop">
-                <a href="../menu/shop.html">Shop</a>
-            </div>
-
-            <div class="hijoMenuFlex contactos">
-                <a href="../menu/contactos.html">Contacto</a>
-            </div>
-
-        </div>
-    </nav> -->
     <header>
-        <h1>SHOP</h1>
+        <h1 class="mt-3">SHOP</h1>
     </header>
     <h2>
         <p align="center">Proximamente disponible</p>
     </h2>
 
-    <div class="gridPadreShop">
-        <div class="producto">
-            <p>PRODUCTO 1</p>
-        </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/longboardshop.jpg" class="card-img-top" alt="longboards">
+                <div class="card-body">
+                    <h5 class="card-title">Longboards</h5>
+                    <p class="card-text">Los mejores longboards completos.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 2</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/tablashop.jpg" class="card-img-top" alt="tablas">
+                <div class="card-body">
+                    <h5 class="card-title">Tablas</h5>
+                    <p class="card-text">Podrás encontrar tablas para todas las disciplinas.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 3</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/ruedasshop.jpg" class="card-img-top" alt="ruedas">
+                <div class="card-body">
+                    <h5 class="card-title">Ruedas</h5>
+                    <p class="card-text">Ruedas de todos los tamaños y durezas.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 4</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/trucksshop.jpg" class="card-img-top" alt="trucks">
+                <div class="card-body">
+                    <h5 class="card-title">Trucks</h5>
+                    <p class="card-text">La mejor selección de trucks nacionales e importados.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 5</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/guantesshop.jpg" class="card-img-top" alt="guantes">
+                <div class="card-body">
+                    <h5 class="card-title">Guantes</h5>
+                    <p class="card-text">Amplia variedad de guantes de longboard.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 6</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/cascoshop.jpg" class="card-img-top" alt="casco">
+                <div class="card-body">
+                    <h5 class="card-title">Cascos</h5>
+                    <p class="card-text">Encontrá el que mas se ajuste a tus
+                        necesidades.</p>
+                    <a href="#" class="btn btn-primary">Ver Todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 7</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/rulemanesshop.jpeg" class="card-img-top" alt="hardware">
+                <div class="card-body">
+                    <h5 class="card-title">Hardware</h5>
+                    <p class="card-text">Bujes, rulemanes, tornillos, lijas, etc.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 8</p>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/proteccshop.jpg" class="card-img-top" alt="protecciobes">
+                <div class="card-body">
+                    <h5 class="card-title">Protecciones</h5>
+                    <p class="card-text">Rodilleras, coderas, todo lo que necesitas para patinar seguro.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
 
-        <div class="producto">
-            <p>PRODUCTO 9</p>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/ropashop.jpg" class="card-img-top" alt="indumentaria">
+                <div class="card-body">
+                    <h5 class="card-title">Indumentaria</h5>
+                    <p class="card-text">Patina siempre con estilo y comodidad.</p>
+                    <a href="#" class="btn btn-primary">Ver todo</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -109,13 +166,19 @@
 
         <p>Haciendo patinar desde 2013</p>
         <div class="logosFooter">
-            <a class="fb" href="https://www.facebook.com/ATLPinamar" target="_blank"><img src="../img/fbLogo.png" alt=""></a>
-            <a class="ig" href="https://www.instagram.com/atlpinamar/" target="_blank"><img src="../img/ig.png" alt=""></a>
-            <a class="yt" href="https://www.youtube.com/user/ATLPinamar" target="_blank"><img src="../img/yt.png" alt=""></a>
+            <a class="fb" href="https://www.facebook.com/ATLPinamar" target="_blank"><img src="../img/fbLogo.png"
+                    alt=""></a>
+            <a class="ig" href="https://www.instagram.com/atlpinamar/" target="_blank"><img src="../img/ig.png"
+                    alt=""></a>
+            <a class="yt" href="https://www.youtube.com/user/ATLPinamar" target="_blank"><img src="../img/yt.png"
+                    alt=""></a>
         </div>
 
     </footer>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
