@@ -105,7 +105,7 @@ nav ul li a:hover:before{
     margin: auto;
 }
 
-.banner {
+.img-fluid {
     display: flex;
     top: 0;
     bottom: 0;
