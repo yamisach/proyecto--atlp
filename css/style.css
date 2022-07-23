@@ -566,6 +566,26 @@ footer{
     width: 100%;
 }
 
+.franFoto:hover{
+    filter: grayscale(90%);
+}
+
+.brauFoto:hover{
+    filter: grayscale(90%);
+}
+
+.yamFoto:hover{
+    filter: grayscale(90%);
+}
+
+.santiFoto:hover{
+    filter: grayscale(90%);
+}
+
+.jonaFoto:hover{
+    filter: grayscale(90%);
+}
+
 /* GRID AREA */
 
 .contenedorTeam {
