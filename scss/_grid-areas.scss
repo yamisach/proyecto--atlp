@@ -1,0 +1,170 @@
+/* GRID AREA */
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "banner banner banner"
+        "header header header"
+        "main main main"
+        "h2 h2 h2"
+        "ubicacion ubicacion ubicacion"
+        "footer footer footer";
+}
+
+nav {
+    grid-area: nav;
+}
+
+picture {
+    grid-area: banner;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+h2 {
+    grid-area: h2;
+}
+
+.ubicacion {
+    grid-area: ubicacion;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+.contenedorEventos1 {
+    display: grid;
+    grid-template-areas:
+        "nav nav"
+        "header header"
+        "h2 h2"
+        "p p"
+        "eventoUno eventoUno"
+        "eventoDos eventoDos"
+        "eventoTres eventoTres"
+        "eventoCuatro eventoCuatro"
+        "footer footer";
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+h2 {
+    grid-area: h2;
+}
+
+p {
+    grid-area: p;
+}
+
+.eventoUno {
+    grid-area: eventoUno;
+}
+
+.eventoDos {
+    grid-area: eventoDos;
+}
+
+.eventoTres {
+    grid-area: eventoTres;
+}
+
+.eventoCuatro {
+    grid-area: eventoCuatro;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.contenedorTeam {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav nav nav"
+        "img img img img img"
+        "header header header header header"
+        "section section section section section"
+        "fran brau yam santi jona"
+        "footer footer footer footer footer";
+}
+
+nav {
+    grid-area: nav;
+}
+
+img {
+    grid-area: img;
+}
+
+header {
+    grid-area: header;
+}
+
+section {
+    grid-area: section;
+}
+
+.fran {
+    grid-area: fran;
+}
+
+.brau {
+    grid-area: brau;
+}
+
+.yam {
+    grid-area: yam;
+}
+
+.santi {
+    grid-area: santi;
+}
+
+.jona {
+    grid-area: jona;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+.contenedorContactos {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "main main main"
+        "footer footer foooter";
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+
+}

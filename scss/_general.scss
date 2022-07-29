@@ -1,0 +1,383 @@
+h1 {
+    color: black;
+    background-color: $color-fondo-titulos;
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+h2 {
+    color: #e76f51;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3 {
+    color: $color-fondo-titulos;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section p {
+    color: red;
+}
+
+
+.botonWhatsapp {
+    width: 100px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+body {
+    background-color: #264653;
+    width: 100%;
+}
+
+.historia {
+    border: 2px black solid;
+    padding: 20px;
+    margin: 30px;
+}
+
+.contenedorImg {
+    background-image: url(../img/nature-wallpaper-g7c2688ca0_1920.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px black solid;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    font-size: 30px;
+}
+
+/* MENU */
+
+.fotoGrupal {
+    display: block;
+    margin: auto;
+}
+
+.img-fluid {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.tituloHistoria {
+    text-align: center;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    colinaAzul marcoPolo iframe {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    p {
+        color: $color-fondo-titulos;
+        text-transform: uppercase;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover {
+    .image {
+        opacity: 0.3;
+    }
+
+    .middle {
+        opacity: 1;
+    }
+}
+
+.text {
+    background-color: $color-fondo-titulos;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/*EVENTOS*/
+
+body {
+    width: 100%;
+}
+
+.hijoFlexEventos {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.contenedorEventos {
+    display: flex;
+    background-color: teal;
+    width: 80%;
+    border: 3px black solid;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: auto;
+    color: black;
+}
+
+.flyer1,
+.flyer2,
+.flyer3,
+.flyer4 {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* TEAM */
+
+.contenedorTeamFlex {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    height: 80%;
+}
+
+.padreTeamFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    height: 100%;
+}
+
+.hijoTeamFlex {
+    height: 80%;
+
+    p {
+        color: $color-fondo-titulos;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bolder;
+    }
+}
+
+.fotoGrupal {
+    width: 100%;
+}
+
+.franFoto:hover,
+.brauFoto:hover,
+.yamFoto:hover,
+.santiFoto:hover,
+.jonaFoto:hover {
+    filter: grayscale(90%);
+}
+
+.fotosTeam {
+    width: 100%;
+}
+
+
+/* VIDEOS */
+
+a:visited {
+    color: black;
+}
+
+.aqui {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    display: inline-block;
+}
+
+.button {
+    width: 220px;
+    margin-left: 50%;
+    margin-bottom: 30px;
+    transform: translate(-50%);
+    padding: 15px 50px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #e76f51;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px $color-fondo-titulos;
+
+    &:hover {
+        background-color: #e76f51;
+    }
+
+    &:active {
+        background-color: $color-fondo-titulos;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+}
+
+.carousel {
+    slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* CONTACTO */
+
+.form {
+    color: #264653;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #e76f51;
+    width: 90%;
+    height: 100%;
+    border: 5px black solid;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    width: 80%;
+}
+
+
+
+/* SHOP */
+
+.container text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.btn {
+    background-color: $color-fondo-titulos;
+
+    &:hover {
+        background-color: #e76f51;
+    }
+}
