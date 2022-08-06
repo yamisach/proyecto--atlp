@@ -1,0 +1,14 @@
+/*EXTEND*/
+
+.historiaIntroduccion {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 30px;
+}
+
+.historiaImportante {
+    @extend .historiaIntroduccion;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}

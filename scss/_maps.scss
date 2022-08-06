@@ -1,0 +1,9 @@
+/*MAPAS*/
+
+$mapTitulos:(h1:black, h2:#e76f51, footer:#2a9d8f);
+
+@each $titulo, $color in $mapTitulos {
+    .#{$titulo} {
+        color: $color;
+    }
+}

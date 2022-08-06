@@ -24,7 +24,7 @@ h3 {
 }
 
 section p {
-    color: red;
+    color: black;
 }
 
 
@@ -44,6 +44,13 @@ body {
     border: 2px black solid;
     padding: 20px;
     margin: 30px;
+}
+
+.historiaImportante {
+    border: 2px black solid;
+    padding: 20px;
+    margin: 30px;
+    color: #E9C46A;
 }
 
 .contenedorImg {
@@ -237,7 +244,7 @@ body {
 }
 
 
-/* VIDEOS */
+/* GALERIA */
 
 a:visited {
     color: black;
@@ -274,8 +281,7 @@ body {
 
     &:active {
         background-color: $color-fondo-titulos;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
+        box-shadow: 0 5px #e76f51;
     }
 }
 
@@ -306,6 +312,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    img{
+        width: 100%;
+    }
 }
 
 .col {
@@ -336,6 +346,8 @@ iframe {
     width: 100%;
     flex-wrap: wrap;
 }
+
+
 
 /* CONTACTO */
 
