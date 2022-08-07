@@ -40,16 +40,15 @@ body {
     width: 100%;
 }
 
-.historia {
+.historia-fluid {
+    width: 100%;
     border: 2px black solid;
-    padding: 20px;
-    margin: 30px;
+    margin: 20px;
 }
 
-.historiaImportante {
-    border: 2px black solid;
-    padding: 20px;
-    margin: 30px;
+.historiaImportante-fluid {
+    width: 100%;
+    justify-content: center;
     color: #E9C46A;
 }
 
@@ -59,8 +58,6 @@ body {
     background-position: center;
     background-size: cover;
     border: 2px black solid;
-    padding: 10px;
-    margin: 10px;
     display: flex;
     font-size: 30px;
 }
