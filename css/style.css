@@ -23,7 +23,7 @@ h3 {
   font-weight: bold; }
 
 section p {
-  color: black; }
+  color: white; }
 
 .botonWhatsapp {
   width: 100px;
@@ -38,7 +38,9 @@ body {
 .historia-fluid {
   width: 100%;
   border: 2px black solid;
-  margin: 20px; }
+  margin: 20px;
+  background-color: black;
+  opacity: 0.5; }
 
 .historiaImportante-fluid {
   width: 100%;
@@ -213,9 +215,9 @@ body {
 
 .button {
   width: 220px;
-  margin-left: 50%;
+  display: block;
+  margin: auto;
   margin-bottom: 30px;
-  transform: translate(-50%);
   padding: 15px 50px;
   color: black;
   font-size: 30px;

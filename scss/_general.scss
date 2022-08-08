@@ -24,7 +24,7 @@ h3 {
 }
 
 section p {
-    color: black;
+    color: white;
 }
 
 
@@ -44,6 +44,8 @@ body {
     width: 100%;
     border: 2px black solid;
     margin: 20px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
 }
 
 .historiaImportante-fluid {
@@ -258,9 +260,9 @@ body {
 
 .button {
     width: 220px;
-    margin-left: 50%;
+    display: block;
+    margin:auto;
     margin-bottom: 30px;
-    transform: translate(-50%);
     padding: 15px 50px;
     color: black;
     font-size: 30px;
