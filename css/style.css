@@ -15,6 +15,10 @@ h2 {
   font-weight: bold;
   font-size: 50px; }
 
+.h2 {
+  text-align: center;
+  width: 100%; }
+
 h3 {
   color: #2a9d8f;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -411,6 +415,12 @@ h2 {
 footer {
   grid-area: footer; }
 
+.imgHistoria {
+  grid-area: img; }
+
+.tituloImg {
+  grid-area: tituloImg; }
+
 .contenedorEventos1 {
   display: grid;
   grid-template-areas: "nav nav" "header header" "h2 h2" "p p" "eventoUno eventoUno" "eventoDos eventoDos" "eventoTres eventoTres" "eventoCuatro eventoCuatro" "footer footer"; }
@@ -478,7 +488,7 @@ footer {
 
 .contenedorContactos {
   display: grid;
-  grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer foooter"; }
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer foooter"; }
 
 nav {
   grid-area: nav; }
@@ -488,6 +498,12 @@ header {
 
 main {
   grid-area: main; }
+
+.h2 {
+  grid-area: h2; }
+
+.ubicacion {
+  grid-area: ubicacion; }
 
 footer {
   grid-area: footer; }
@@ -512,7 +528,7 @@ footer {
 @media (max-width: 480px) {
   .contenedorContactos {
     display: grid;
-    grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer"; } }
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; } }
 
 @media (max-width: 480px) {
   .gridPadreShop {
@@ -540,7 +556,7 @@ footer {
 @media (min-width: 480px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav" "nav nav" "banner banner" "header header" "main main" "h2 h2" "ubicacion ubicacion" "footer footer"; } }
+    grid-template-areas: "nav nav" "nav nav" "banner banner" "header header" "main main" "tituloImg tituloImg" "img img" "footer footer"; } }
 
 @media (min-width: 480px) {
   .contenedorEventos1 {
@@ -555,7 +571,7 @@ footer {
 @media (min-width: 480px) {
   .contenedorContactos {
     display: grid;
-    grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer"; } }
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; } }
 
 @media (min-width: 480px) {
   .contenedorShop {
@@ -566,7 +582,7 @@ footer {
 @media (min-width: 1024px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main h2" "main main ubicacion" "main main ubicacion" "footer footer footer"; } }
+    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main tituloImg" "main main img" "main main img" "footer footer footer"; } }
 
 @media (min-width: 1024px) {
   .contenedorEventos1 {
@@ -581,7 +597,7 @@ footer {
 @media (min-width: 1024px) {
   .contenedorContactos {
     display: grid;
-    grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer"; } }
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; } }
 
 @media (min-width: 1024px) {
   .contenedorShop {

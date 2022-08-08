@@ -40,6 +40,14 @@ footer {
     grid-area: footer;
 }
 
+.imgHistoria {
+    grid-area: img;
+}
+
+.tituloImg {
+    grid-area: tituloImg;
+}
+
 
 .contenedorEventos1 {
     display: grid;
@@ -149,8 +157,11 @@ footer {
         "nav nav nav"
         "header header header"
         "main main main"
+        "h2 h2 h2"
+        "ubicacion ubicacion ubicacion"
         "footer footer foooter";
 }
+
 
 nav {
     grid-area: nav;
@@ -162,6 +173,14 @@ header {
 
 main {
     grid-area: main;
+}
+
+.h2{
+    grid-area: h2;
+}
+
+.ubicacion {
+    grid-area: ubicacion;
 }
 
 footer {

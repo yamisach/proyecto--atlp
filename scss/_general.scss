@@ -15,6 +15,11 @@ h2 {
     font-size: 50px;
 }
 
+.h2 {
+    text-align: center;
+    width: 100%;
+}
+
 h3 {
     color: $color-fondo-titulos;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -63,6 +68,7 @@ body {
     display: flex;
     font-size: 30px;
 }
+
 
 /* MENU */
 
@@ -156,6 +162,7 @@ body {
     font-size: 16px;
     padding: 16px 32px;
 }
+
 
 /*EVENTOS*/
 
