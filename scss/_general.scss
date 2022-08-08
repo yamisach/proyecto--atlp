@@ -69,8 +69,12 @@ body {
     font-size: 30px;
 }
 
+main {
+    padding: 1rem;
+}
 
 /* MENU */
+
 
 .fotoGrupal {
     display: block;
@@ -163,6 +167,10 @@ body {
     padding: 16px 32px;
 }
 
+.imgHistoria {
+    padding: 1rem;
+}
+
 
 /*EVENTOS*/
 
@@ -201,6 +209,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 }
 
 
@@ -235,6 +244,7 @@ body {
 
 .fotoGrupal {
     width: 100%;
+    padding: 1rem;
 }
 
 .franFoto:hover,
@@ -307,6 +317,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .row {

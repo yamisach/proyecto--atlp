@@ -60,6 +60,9 @@ body {
   display: flex;
   font-size: 30px; }
 
+main {
+  padding: 1rem; }
+
 /* MENU */
 .fotoGrupal {
   display: block;
@@ -136,6 +139,9 @@ body {
   font-size: 16px;
   padding: 16px 32px; }
 
+.imgHistoria {
+  padding: 1rem; }
+
 /*EVENTOS*/
 body {
   width: 100%; }
@@ -168,7 +174,8 @@ body {
   margin: auto;
   width: 100%;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: 1rem; }
 
 /* TEAM */
 .contenedorTeamFlex {
@@ -194,7 +201,8 @@ body {
     font-weight: bolder; }
 
 .fotoGrupal {
-  width: 100%; }
+  width: 100%;
+  padding: 1rem; }
 
 .franFoto:hover,
 .brauFoto:hover,
@@ -245,7 +253,8 @@ body {
   position: relative;
   width: 100%;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 1rem; }
   .carousel slide {
     display: flex;
     align-items: center;
