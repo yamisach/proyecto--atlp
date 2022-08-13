@@ -215,6 +215,111 @@ body {
 
 /* TEAM */
 
+.containerFran {
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.containerBrau {
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.containerYam {
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.containerSanti {
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.containerJona {
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
 .contenedorTeamFlex {
     text-align: center;
     margin: 50px;
@@ -229,17 +334,7 @@ body {
     flex-wrap: wrap;
     height: 100%;
     height: 100%;
-}
-
-.hijoTeamFlex {
-    height: 80%;
-
-    p {
-        color: $color-fondo-titulos;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bolder;
-    }
+    gap: 3rem;
 }
 
 .fotoGrupal {
@@ -252,7 +347,7 @@ body {
 .yamFoto:hover,
 .santiFoto:hover,
 .jonaFoto:hover {
-    filter: grayscale(90%);
+    filter: grayscale(100%);
 }
 
 .fotosTeam {
