@@ -595,24 +595,16 @@ footer {
 @media (max-width: 480px) {
   .contenedor {
     display: flex;
-    flex-direction: column; } }
-
-@media (max-width: 480px) {
+    flex-direction: column; }
   .contenedorEventos1 {
     display: grid;
-    grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; } }
-
-@media (max-width: 480px) {
+    grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; }
   .contenedorTeam {
     display: grid;
-    grid-template-areas: "nav nav" "img img" "header header" "section section" "fran brau" "yam santi" "jona jona" "footer footer"; } }
-
-@media (max-width: 480px) {
+    grid-template-areas: "nav nav" "img img" "header header" "section section" "fran brau" "yam santi" "jona jona" "footer footer"; }
   .contenedorContactos {
     display: grid;
-    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; } }
-
-@media (max-width: 480px) {
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
   .gridPadreShop {
     display: flex;
     flex-direction: column;
@@ -638,24 +630,16 @@ footer {
 @media (min-width: 480px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav" "nav nav" "banner banner" "header header" "main main" "tituloImg tituloImg" "img img" "footer footer"; } }
-
-@media (min-width: 480px) {
+    grid-template-areas: "nav nav" "nav nav" "banner banner" "header header" "main main" "tituloImg tituloImg" "img img" "footer footer"; }
   .contenedorEventos1 {
     display: grid;
-    grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; } }
-
-@media (min-width: 480px) {
+    grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; }
   .contenedorTeam {
     display: grid;
-    grid-template-areas: "nav nav nav" "img img img" "header header header" "section section section" "fran brau yam" "santi jona jona" "footer footer footer"; } }
-
-@media (min-width: 480px) {
+    grid-template-areas: "nav nav nav" "img img img" "header header header" "section section section" "fran brau yam" "santi jona jona" "footer footer footer"; }
   .contenedorContactos {
     display: grid;
-    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; } }
-
-@media (min-width: 480px) {
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
   .contenedorShop {
     display: grid;
     grid-template-areas: "nav nav" "header header" "h2 h2" "productos productos" "footer footer"; } }
@@ -664,24 +648,16 @@ footer {
 @media (min-width: 1024px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main tituloImg" "main main img" "main main img" "footer footer footer"; } }
-
-@media (min-width: 1024px) {
+    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main tituloImg" "main main img" "main main img" "footer footer footer"; }
   .contenedorEventos1 {
     display: grid;
-    grid-template-areas: "nav nav" "header header" "h2 h2" "p p" "eventoUno eventoDos" "eventoTres eventoCuatro" "footer footer"; } }
-
-@media (min-width: 1024px) {
+    grid-template-areas: "nav nav" "header header" "h2 h2" "p p" "eventoUno eventoDos" "eventoTres eventoCuatro" "footer footer"; }
   .contenedorTeam {
     display: grid;
-    grid-template-areas: "nav nav nav nav nav" "img img img img img" "header header header header header" "section section section section section" "fran brau yam santi jona" "footer footer footer footer footer"; } }
-
-@media (min-width: 1024px) {
+    grid-template-areas: "nav nav nav nav nav" "img img img img img" "header header header header header" "section section section section section" "fran brau yam santi jona" "footer footer footer footer footer"; }
   .contenedorContactos {
     display: grid;
-    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; } }
-
-@media (min-width: 1024px) {
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
   .contenedorShop {
     display: grid;
     grid-template-areas: "nav nav nav" "header header header" "h2 h2 h2" "productos productos productos" "footer footer footer"; } }
