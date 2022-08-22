@@ -7,9 +7,10 @@
         "banner banner banner"
         "header header header"
         "main main main"
-        "h2 h2 h2"
-        "ubicacion ubicacion ubicacion"
         "footer footer footer";
+}
+
+main{grid-area: main;
 }
 
 nav {
@@ -22,10 +23,6 @@ picture {
 
 header {
     grid-area: header;
-}
-
-main {
-    grid-area: main;
 }
 
 h2 {
@@ -103,11 +100,13 @@ footer {
     display: grid;
     grid-template-areas:
         "nav nav nav nav nav"
-        "img img img img img"
         "header header header header header"
-        "section section section section section"
+        "main main main main main"
         "fran brau yam santi jona"
         "footer footer footer footer footer";
+}
+
+main {grid-area: main;
 }
 
 nav {

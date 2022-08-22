@@ -26,8 +26,8 @@
         display: grid;
         grid-template-areas:
             "nav nav"
-            "img img"
             "header header"
+            "main main"
             "section section"
             "fran brau"
             "yam santi"
@@ -112,8 +112,8 @@
         display: grid;
         grid-template-areas:
             "nav nav nav"
-            "img img img"
             "header header header"
+            "main main main"
             "section section section"
             "fran brau yam"
             "santi jona jona"
@@ -153,9 +153,9 @@
             "nav nav nav"
             "banner banner banner"
             "header header header"
-            "main main tituloImg"
-            "main main img"
-            "main main img"
+            "main main main"
+            "tituloImg tituloImg tituloImg"
+            "img img img"
             "footer footer footer";
     }
 
@@ -175,8 +175,8 @@
         display: grid;
         grid-template-areas:
             "nav nav nav nav nav"
-            "img img img img img"
             "header header header header header"
+            "main main main main main"
             "section section section section section"
             "fran brau yam santi jona"
             "footer footer footer footer footer";

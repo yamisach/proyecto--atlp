@@ -51,7 +51,19 @@ body {
   justify-content: center;
   color: #E9C46A; }
 
+.historiaIntroduccion-fluid, .historiaImportante-fluid {
+  font-size: 10px; }
+
 .contenedorImg {
+  background-image: url(../img/atlpTeam.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px black solid;
+  display: flex;
+  font-size: 30px; }
+
+.contenedorImgIndex {
   background-image: url(../img/nature-wallpaper-g7c2688ca0_1920.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -474,7 +486,10 @@ a {
 /* GRID AREA */
 .contenedor {
   display: grid;
-  grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
+  grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main main" "footer footer footer"; }
+
+main {
+  grid-area: main; }
 
 nav {
   grid-area: nav; }
@@ -484,9 +499,6 @@ picture {
 
 header {
   grid-area: header; }
-
-main {
-  grid-area: main; }
 
 h2 {
   grid-area: h2; }
@@ -536,7 +548,10 @@ footer {
 
 .contenedorTeam {
   display: grid;
-  grid-template-areas: "nav nav nav nav nav" "img img img img img" "header header header header header" "section section section section section" "fran brau yam santi jona" "footer footer footer footer footer"; }
+  grid-template-areas: "nav nav nav nav nav" "header header header header header" "main main main main main" "fran brau yam santi jona" "footer footer footer footer footer"; }
+
+main {
+  grid-area: main; }
 
 nav {
   grid-area: nav; }
@@ -601,7 +616,7 @@ footer {
     grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; }
   .contenedorTeam {
     display: grid;
-    grid-template-areas: "nav nav" "img img" "header header" "section section" "fran brau" "yam santi" "jona jona" "footer footer"; }
+    grid-template-areas: "nav nav" "header header" "main main" "section section" "fran brau" "yam santi" "jona jona" "footer footer"; }
   .contenedorContactos {
     display: grid;
     grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
@@ -636,7 +651,7 @@ footer {
     grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; }
   .contenedorTeam {
     display: grid;
-    grid-template-areas: "nav nav nav" "img img img" "header header header" "section section section" "fran brau yam" "santi jona jona" "footer footer footer"; }
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "section section section" "fran brau yam" "santi jona jona" "footer footer footer"; }
   .contenedorContactos {
     display: grid;
     grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
@@ -648,13 +663,13 @@ footer {
 @media (min-width: 1024px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main tituloImg" "main main img" "main main img" "footer footer footer"; }
+    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main main" "tituloImg tituloImg tituloImg" "img img img" "footer footer footer"; }
   .contenedorEventos1 {
     display: grid;
     grid-template-areas: "nav nav" "header header" "h2 h2" "p p" "eventoUno eventoDos" "eventoTres eventoCuatro" "footer footer"; }
   .contenedorTeam {
     display: grid;
-    grid-template-areas: "nav nav nav nav nav" "img img img img img" "header header header header header" "section section section section section" "fran brau yam santi jona" "footer footer footer footer footer"; }
+    grid-template-areas: "nav nav nav nav nav" "header header header header header" "main main main main main" "section section section section section" "fran brau yam santi jona" "footer footer footer footer footer"; }
   .contenedorContactos {
     display: grid;
     grid-template-areas: "nav nav nav" "header header header" "main main main" "h2 h2 h2" "ubicacion ubicacion ubicacion" "footer footer footer"; }
@@ -676,12 +691,12 @@ footer {
 .historiaIntroduccion-fluid, .historiaImportante-fluid {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
-  font-size: 30px; }
+  font-size: 20px; }
 
 .historiaImportante-fluid {
   text-align: center;
   font-weight: bold;
-  font-size: 40px; }
+  font-size: 30px; }
 
 /*MIXIN*/
 .contenedorEventos {

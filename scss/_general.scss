@@ -59,7 +59,21 @@ body {
     color: #E9C46A;
 }
 
+.historiaIntroduccion-fluid {
+    font-size: 10px;
+}
+
 .contenedorImg {
+    background-image: url(../img/atlpTeam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px black solid;
+    display: flex;
+    font-size: 30px;
+}
+
+.contenedorImgIndex {
     background-image: url(../img/nature-wallpaper-g7c2688ca0_1920.png);
     background-repeat: no-repeat;
     background-position: center;
