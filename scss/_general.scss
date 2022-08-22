@@ -70,7 +70,7 @@ body {
 
 .contenedorImgIndex {
     width: 100%;
-    height: 500px;
+    height: 100%;
     overflow: hidden;
     position: relative;
     background-color: #264653;
@@ -88,7 +88,7 @@ body {
 
 .contenedorTexto{
     width: 100%;
-    height: 500px;
+    height: 100%;
     overflow: hidden;
     position: relative;
     background-color: #264653;
@@ -97,7 +97,7 @@ body {
     padding: 1rem;
 
     p{
-    width: 700px;
+    width: 100%;
     height: 100%;
     justify-content: right;
     background-color: black;
