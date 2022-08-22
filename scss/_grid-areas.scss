@@ -5,11 +5,15 @@
     grid-template-areas:
         "nav nav nav"
         "header header header"
-        "main main main"
         "texto texto texto"
         "fotos fotos fotos"
         "enlaces enlaces enlaces"
+        "comunicate comunicate comunicate"
         "footer footer footer";
+}
+
+.comunicate{
+    grid-area: comunicate;
 }
 
 main{grid-area: main;
