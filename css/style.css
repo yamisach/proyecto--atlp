@@ -40,16 +40,7 @@ body {
   width: 100%; }
 
 .historia-fluid {
-  width: 100%;
-  border: 2px black solid;
-  margin: 20px;
-  background-color: black;
-  opacity: 0.5; }
-
-.historiaImportante-fluid {
-  width: 100%;
-  justify-content: center;
-  color: #E9C46A; }
+  width: 100%; }
 
 .historiaIntroduccion-fluid, .historiaImportante-fluid {
   font-size: 10px; }
@@ -61,33 +52,113 @@ body {
   background-size: cover;
   border: 2px black solid;
   display: flex;
-  font-size: 30px; }
+  font-size: 30px;
+  padding: 0;
+  margin: 0; }
 
 .contenedorImgIndex {
-  background-image: url(../img/nature-wallpaper-g7c2688ca0_1920.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px black solid;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  background-color: #264653;
   display: flex;
-  font-size: 30px; }
+  justify-content: left; }
+  .contenedorImgIndex img {
+    height: 100%;
+    align-items: flex-start;
+    position: relative; }
+
+.contenedorTexto {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  background-color: #264653;
+  display: flex;
+  justify-content: right;
+  padding: 1rem; }
+  .contenedorTexto p {
+    width: 700px;
+    height: 100%;
+    justify-content: right;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border: black 2px solid;
+    font-size: 25px; }
 
 main {
   padding: 1rem; }
 
 /* MENU */
+.enlaces {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+  .enlaces .imgFondoEnlaces {
+    width: 100%;
+    height: 100%; }
+    .enlaces .imgFondoEnlaces img {
+      width: 100%; }
+  .enlaces .containerEnlaces {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%; }
+    .enlaces .containerEnlaces .row {
+      height: 50%; }
+    .enlaces .containerEnlaces h5 {
+      text-align: center;
+      text-transform: uppercase; }
+    .enlaces .containerEnlaces p {
+      color: black;
+      text-align: center; }
+    .enlaces .containerEnlaces a {
+      display: flex;
+      justify-content: center; }
+  .enlaces .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.tresFotos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.headerImg {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative; }
+  .headerImg img {
+    width: 100%;
+    height: 100%; }
+  .headerImg picture {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    position: absolute; }
+
 .fotoGrupal {
   display: block;
   margin: auto; }
-
-.img-fluid {
-  display: flex;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 100%; }
 
 .tituloHistoria {
   text-align: center; }
@@ -387,16 +458,22 @@ iframe {
 
 /* CONTACTO */
 .form {
-  color: #264653;
+  color: #fff;
   font-size: 25px;
   font-weight: bold;
-  background-color: #e76f51;
+  background-image: url(../img/austria-4936672.jpg);
   width: 90%;
   height: 100%;
   border: 5px black solid;
+  border-radius: 30px;
   margin: auto;
   display: flex;
   justify-content: center; }
+  .form legend {
+    text-align: center;
+    font-size: 35px; }
+  .form label {
+    color: #264653; }
 
 fieldset {
   width: 80%; }
@@ -486,7 +563,7 @@ a {
 /* GRID AREA */
 .contenedor {
   display: grid;
-  grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main main" "footer footer footer"; }
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "texto texto texto" "fotos fotos fotos" "enlaces enlaces enlaces" "footer footer footer"; }
 
 main {
   grid-area: main; }
@@ -494,26 +571,23 @@ main {
 nav {
   grid-area: nav; }
 
-picture {
-  grid-area: banner; }
-
 header {
   grid-area: header; }
-
-h2 {
-  grid-area: h2; }
-
-.ubicacion {
-  grid-area: ubicacion; }
 
 footer {
   grid-area: footer; }
 
-.imgHistoria {
-  grid-area: img; }
-
 .tituloImg {
   grid-area: tituloImg; }
+
+.textoInicio {
+  grid-area: texto; }
+
+.tresFotos {
+  grid-area: fotos; }
+
+.enlaces {
+  grid-area: enlaces; }
 
 .contenedorEventos1 {
   display: grid;
@@ -609,8 +683,8 @@ footer {
 /* VERSION MOBILE */
 @media (max-width: 480px) {
   .contenedor {
-    display: flex;
-    flex-direction: column; }
+    display: grid;
+    grid-template-areas: "nav nav" "header header" "main main" "texto texto" "fotos fotos" "enlaces enlaces" "footer footer"; }
   .contenedorEventos1 {
     display: grid;
     grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; }
@@ -645,7 +719,7 @@ footer {
 @media (min-width: 480px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav" "nav nav" "banner banner" "header header" "main main" "tituloImg tituloImg" "img img" "footer footer"; }
+    grid-template-areas: "nav nav" "header header" "main main" "texto texto texto" "fotos fotos fotos" "enlaces enlaces enlaces" "footer footer"; }
   .contenedorEventos1 {
     display: grid;
     grid-template-areas: "nav" "header" "h2" "p" "eventoUno" "eventoDos" "eventoTres" "eventoCuatro" "footer"; }
@@ -663,7 +737,7 @@ footer {
 @media (min-width: 1024px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "nav nav nav" "banner banner banner" "header header header" "main main main" "tituloImg tituloImg tituloImg" "img img img" "footer footer footer"; }
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "texto texto texto" "fotos fotos fotos" "enlaces enlaces enlaces" "footer footer footer"; }
   .contenedorEventos1 {
     display: grid;
     grid-template-areas: "nav nav" "header header" "h2 h2" "p p" "eventoUno eventoDos" "eventoTres eventoCuatro" "footer footer"; }

@@ -4,8 +4,15 @@
 
 @media (max-width:480px) {
     .contenedor {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-areas:
+            "nav nav"
+            "header header"
+            "main main"
+            "texto texto"
+            "fotos fotos"
+            "enlaces enlaces"
+            "footer footer";
     }
 
     .contenedorEventos1 {
@@ -85,12 +92,11 @@
         display: grid;
         grid-template-areas:
             "nav nav"
-            "nav nav"
-            "banner banner"
             "header header"
             "main main"
-            "tituloImg tituloImg"
-            "img img"
+            "texto texto texto"
+            "fotos fotos fotos"
+            "enlaces enlaces enlaces"
             "footer footer";
     }
 
@@ -151,11 +157,11 @@
         display: grid;
         grid-template-areas:
             "nav nav nav"
-            "banner banner banner"
             "header header header"
             "main main main"
-            "tituloImg tituloImg tituloImg"
-            "img img img"
+            "texto texto texto"
+            "fotos fotos fotos"
+            "enlaces enlaces enlaces"
             "footer footer footer";
     }
 

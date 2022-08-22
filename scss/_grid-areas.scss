@@ -4,46 +4,48 @@
     display: grid;
     grid-template-areas:
         "nav nav nav"
-        "banner banner banner"
         "header header header"
         "main main main"
+        "texto texto texto"
+        "fotos fotos fotos"
+        "enlaces enlaces enlaces"
         "footer footer footer";
 }
 
 main{grid-area: main;
 }
 
+
 nav {
     grid-area: nav;
 }
 
-picture {
-    grid-area: banner;
-}
 
 header {
     grid-area: header;
 }
 
-h2 {
-    grid-area: h2;
-}
-
-.ubicacion {
-    grid-area: ubicacion;
-}
 
 footer {
     grid-area: footer;
 }
 
-.imgHistoria {
-    grid-area: img;
-}
-
 .tituloImg {
     grid-area: tituloImg;
 }
+
+.textoInicio{
+    grid-area: texto;
+}
+
+.tresFotos{
+    grid-area: fotos;
+}
+
+.enlaces{
+    grid-area: enlaces;
+}
+
 
 
 .contenedorEventos1 {

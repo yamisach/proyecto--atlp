@@ -47,17 +47,9 @@ body {
 
 .historia-fluid {
     width: 100%;
-    border: 2px black solid;
-    margin: 20px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.5;
 }
 
-.historiaImportante-fluid {
-    width: 100%;
-    justify-content: center;
-    color: #E9C46A;
-}
+
 
 .historiaIntroduccion-fluid {
     font-size: 10px;
@@ -71,16 +63,48 @@ body {
     border: 2px black solid;
     display: flex;
     font-size: 30px;
+    padding: 0;
+    margin: 0;
 }
 
+
 .contenedorImgIndex {
-    background-image: url(../img/nature-wallpaper-g7c2688ca0_1920.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 2px black solid;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color: #264653;
     display: flex;
-    font-size: 30px;
+    justify-content: left;
+
+    img{
+        height: 100%;
+        align-items: flex-start;
+        position: relative;
+    }
+}
+
+
+.contenedorTexto{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color: #264653;
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+
+    p{
+    width: 700px;
+    height: 100%;
+    justify-content: right;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border: black 2px solid;
+    font-size: 25px;
+    }
 }
 
 main {
@@ -89,20 +113,100 @@ main {
 
 /* MENU */
 
+.enlaces{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+    .imgFondoEnlaces{
+        width: 100%;
+        height: 100%;
+    
+    img{
+        width: 100%;
+    }
+    }
+
+    .containerEnlaces {
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+
+    .row{
+        height: 50%;
+    }
+
+
+    h5{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    p{
+        color: black;
+        text-align: center;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+    }
+    }
+    
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+}
+
+
+.tresFotos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.headerImg{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    picture{
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: 50%;
+        position: absolute;
+    }
+}
 
 .fotoGrupal {
     display: block;
     margin: auto;
-}
-
-.img-fluid {
-    display: flex;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100%;
 }
 
 .tituloHistoria {
@@ -478,16 +582,26 @@ iframe {
 /* CONTACTO */
 
 .form {
-    color: #264653;
+    color: #fff;
     font-size: 25px;
     font-weight: bold;
-    background-color: #e76f51;
+    background-image:url(../img/austria-4936672.jpg);
     width: 90%;
     height: 100%;
     border: 5px black solid;
+    border-radius: 30px;
     margin: auto;
     display: flex;
     justify-content: center;
+    
+    legend{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    label{
+        color: #264653;
+    }
 }
 
 fieldset {
