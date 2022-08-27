@@ -240,12 +240,15 @@ body {
   height: 100%;
   margin: auto;
   text-align: center; }
+  .hijoFlexEventos img {
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black; }
 
 .contenedorEventos {
   display: flex;
   background-color: teal;
   width: 80%;
-  border: 3px black solid;
+  border: 5px black solid;
   font-size: 30px;
   border-radius: 5px;
   margin: auto;
