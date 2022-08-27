@@ -26,6 +26,14 @@ h3 {
   font-size: 30px;
   font-weight: bold; }
 
+h5 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.formu {
+  font-size: 20px; }
+
 section p {
   color: white; }
 
@@ -80,28 +88,47 @@ main {
 
 /* MENU */
 .comunicate {
-  grid-area: comunicate;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-image: url(../img/austria-4936672.jpg);
-  background-position: center;
-  padding: 4rem 0; }
-  .comunicate .card-body {
-    background-color: black;
-    color: white;
-    text-align: center; }
-  .comunicate .card-title {
-    font-size: 40px; }
-  .comunicate .card-text {
-    font-size: 15px; }
+  width: 100%;
+  height: 700px; }
+  .comunicate .imagenFondoComunicate {
+    background-image: url("../img/austria-4936672.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .comunicate .cajaComunicate {
+    border-top: 2px solid #e76f51;
+    border-radius: 4px;
+    height: 350px;
+    width: 60%;
+    background-color: #264653;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* box shadow */
+    box-shadow: 20px 10px 10px;
+    /* Opacidad */
+    opacity: 90%;
+    max-width: 90%; }
+  .comunicate .botonFormulario {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3fbbc0; }
 
 .containerPrueba {
   grid-area: enlaces;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url(../img/skateboard-1870039.jpg);
+  background-image: url(../img/sky-1572191.jpg);
   background-position: center;
   padding: 4rem 0; }
 
@@ -121,22 +148,18 @@ main {
   padding: 1rem; }
 
 .headerImg {
+  background-image: url(../img/nature-wallpaper-g7c2688ca0_1920-copia.png);
   width: 100%;
   height: 700px;
   overflow: hidden;
   position: relative; }
   .headerImg img {
-    width: 100%;
-    height: 100%; }
-  .headerImg picture {
     display: flex;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    width: 100%;
-    height: 50%;
     position: absolute; }
 
 .fotoGrupal {
