@@ -120,7 +120,8 @@ main {
     display: inline-block;
     padding: 14px 32px;
     border-radius: 4px;
-    color: #fff;
+    color: black;
+    box-shadow: 5px 5px 5px;
     background-color: #3fbbc0; }
 
 .containerPrueba {
@@ -269,6 +270,9 @@ body {
   justify-content: center;
   padding: 1rem; }
 
+.flyer1:hover, .flyer2:hover, .flyer3:hover, .flyer4:hover {
+  filter: grayscale(80%); }
+
 /* TEAM */
 .containerFran {
   overflow: hidden;
@@ -374,7 +378,7 @@ body {
 .yamFoto:hover,
 .santiFoto:hover,
 .jonaFoto:hover {
-  filter: grayscale(100%); }
+  filter: grayscale(80%); }
 
 .fotosTeam {
   width: 100%; }
